@@ -460,7 +460,13 @@ int main () {
 }
 ```
 
---
+---
+
+例題: [3n + 1](https://neoj.sprout.tw/problem/801/)
+
+---
+
+練習題: 題單上的其他 while 題目
 
 ## 字串 string
 
