@@ -398,6 +398,7 @@ if (-6) {
 [Sprout 季節判斷](https://neoj.sprout.tw/problem/208/)
 [ZJ a003](https://zerojudge.tw/ShowProblem?problemid=a003)
 [ZJ a004](https://zerojudge.tw/ShowProblem?problemid=a004)
+[ZJ a005]
 
 
 ---
