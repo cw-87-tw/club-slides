@@ -427,8 +427,8 @@ while (/* condition */) {
 int n, cnt = 0;
 cin >> n;
 while (n) {
-    n /= 10
-    ++cnt
+    n /= 10;
+    ++cnt;
 }
 ```
 
