@@ -506,10 +506,6 @@ int main () {
 
 --
 
-![](image-1.png)
-
---
-
 string s = "hello";
 
 s[0]：'h'\
