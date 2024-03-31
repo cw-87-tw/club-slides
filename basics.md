@@ -410,6 +410,8 @@ if (-6) {
 
 ## while 迴圈
 
+--
+
 基本語法
 
 ```cpp
@@ -417,6 +419,23 @@ while (/* condition */) {
     // do something
 }
 
+```
+
+--
+
+例子: 1 數到 100
+
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n = 1;
+    while (n <= 100) {
+        cout << n << '\n';
+        ++n;
+    }
+}
 ```
 
 --
@@ -470,7 +489,8 @@ int main () {
 練習題: 題單上的其他 while 題目
 
 ---
-## 字串 string
+
+## 字串 string (C++ string)
 
 --
 
@@ -499,3 +519,8 @@ s[3]：'l'\
 s[4]：'o'
 
 --
+
+輸入輸出
+
+```cpp
+
