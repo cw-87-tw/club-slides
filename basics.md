@@ -410,9 +410,64 @@ if (-6) {
 
 ## while 迴圈
 
-[ZJ a004](https://zerojudge.tw/ShowProblem?problemid=a004)
+基本語法
+
+```cpp
+while (/* condition */) {
+    // do something
+}
+
+```
+
+--
+
+常用: 判斷數字位數
+
+```cpp
+int n, cnt = 0;
+cin >> n;
+while (n) {
+    n /= 10
+    ++cnt
+}
+```
+
+--
+
+常用: 多筆測資 (EOF 結束)
+```cpp
+while (cin >> n) {
+    /* do something */
+}
+```
+例題: [ZJ a004](https://zerojudge.tw/ShowProblem?problemid=a004)
 
 ---
+
+生命週期 (大括號內部的只能在大括號內使用)
+就跟前面講的 if 一樣
+
+```cpp
+	
+#include <iostream>
+using namespace std;
+int main () {
+    int cnt = 0;
+    while (cnt < 5) {
+        int i = 0;
+        cnt++;
+    }
+    cout << i << '\n'; // error
+}
+```
+
+---
+
+例題: [3n + 1](https://neoj.sprout.tw/problem/801/)
+
+---
+
+練習題: 題單上的其他 while 題目
 
 ## 字串 string
 
