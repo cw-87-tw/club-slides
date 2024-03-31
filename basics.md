@@ -441,7 +441,7 @@ while (cin >> n) {
 ```
 例題: [ZJ a004](https://zerojudge.tw/ShowProblem?problemid=a004)
 
----
+--
 
 生命週期 (大括號內部的只能在大括號內使用)
 就跟前面講的 if 一樣
@@ -460,14 +460,15 @@ int main () {
 }
 ```
 
----
+--
 
 例題: [3n + 1](https://neoj.sprout.tw/problem/801/)
 
----
+--
 
 練習題: 題單上的其他 while 題目
 
+---
 ## 字串 string
 
 --
