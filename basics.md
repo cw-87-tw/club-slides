@@ -516,7 +516,109 @@ s[4]：'o'
 
 --
 
-輸入輸出
+### 輸入輸出
 
 ```cpp
+string s;
+cin >> s;
+cout << s << '\n';
+cout << s[0] << '\n'; // 輸出字串的最前面一項
+```
 
+--
+
+輸入
+
+```
+Hello
+```
+
+輸出
+
+```
+Hello
+H
+```
+
+
+--
+
+### 其他常用操作
+s.size(): 取得長度\
+s.push_back(char): 在字串最後增加字元
+s = s + s: 把 s 複製一份接到最後面
+
+```cpp
+string s;
+cin >> s;
+cout << s.size() << '\n';
+s.push_back('!');
+cout << s << '\n';
+cout << s + "!!" << '\n';
+```
+
+--
+
+輸入
+```
+Hello
+```
+
+輸出
+```
+5
+Hello!
+Hello!!!
+```
+
+--
+
+輸入
+```
+Hello World
+```
+
+輸出
+```
+5
+Hello World!
+```
+...嗎?
+
+--
+
+實際情況
+
+輸入
+```
+Hello World
+```
+
+輸出
+```
+5
+Hello!
+```
+
+為什麼 World 不見了?
+
+--
+
+因為預設 cin 只會讀到第一個空格或換行(不會讀入空格或換行)
+```cpp
+string s, t;
+cin >> s >> t;
+cout << s + t << '\n';
+```
+
+--
+
+輸入
+```
+Hello World
+```
+
+輸出
+```
+HelloWorld
+```
