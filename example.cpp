@@ -1,17 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int a, b, c, res;
+int a, b, c;
 
 int main() {
     cin >> a >> b >> c;
-    res = (b * b) - 4 * a * c;
-    if (res > 0) {
-        cout << "Two different roots x1=" << (-b + sqrt(res)) / 2 / a << " , x2=" << (-b - sqrt(res)) / 2 / a << '\n';
+    if (a == b && b == c) {
+        cout << "Equilateral Triangle\n";
     }
-    else if (res == 0) {
-        cout << "Two same roots x=" << -b / 2 / a << '\n';
+    else if (a == b || b == c || a == c) {
+        cout << "Isosceles Triangle\n";
     }
-    else cout << "No real root\n";
+    else cout << "Scalene Triangle\n";
     return 0;
 }

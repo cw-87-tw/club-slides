@@ -323,9 +323,9 @@ else {
 
 * 是否相等 ==
 * 是否不相等 !=
-* 是否大於 \>
+* 是否大於 >
 * 是否小於 <
-* 大於等於 />=
+* 大於等於 >=
 * 小於等於 <=
 
 --
@@ -394,12 +394,12 @@ if (-6) {
 
 練習看看：
 
-[Sprout 13號星期五](https://neoj.sprout.tw/problem/451/)
-[Sprout 三角形判斷](https://neoj.sprout.tw/problem/645/)
-[Sprout 季節判斷](https://neoj.sprout.tw/problem/208/)
-[ZJ a003](https://zerojudge.tw/ShowProblem?problemid=a003)
-[ZJ a004...會用到EOF, while](https://zerojudge.tw/ShowProblem?problemid=a004)
-[ZJ a005...會用到for或while](https://zerojudge.tw/ShowProblem?problemid=a005)
+[Sprout 13號星期五](https://neoj.sprout.tw/problem/451/)\
+[Sprout 三角形判斷](https://neoj.sprout.tw/problem/645/)\
+[Sprout 季節判斷](https://neoj.sprout.tw/problem/208/)\
+[ZJ a003](https://zerojudge.tw/ShowProblem?problemid=a003)\
+[ZJ a004...會用到EOF, while](https://zerojudge.tw/ShowProblem?problemid=a004)\
+[ZJ a005...會用到for或while](https://zerojudge.tw/ShowProblem?problemid=a005)\
 [ZJ a006...會用到sqrt](https://zerojudge.tw/ShowProblem?problemid=a006)
 
 ---
