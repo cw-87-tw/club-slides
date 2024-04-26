@@ -573,6 +573,25 @@ Hello!!!
 
 --
 
+### 其他常用操作
+s.substr(startPos, length)
+取得從 startPos(包含) 開始共 length 個字元所組成的字串
+
+```cpp
+string s = "hello";
+cout << s.substr(1, 3);
+```
+輸出
+```
+ell
+```
+--
+
+```cpp
+string s;
+cin >> s;
+cout << s + "!";
+```
 輸入
 ```
 Hello World
@@ -580,7 +599,6 @@ Hello World
 
 輸出
 ```
-5
 Hello World!
 ```
 ...嗎?
@@ -596,7 +614,6 @@ Hello World
 
 輸出
 ```
-5
 Hello!
 ```
 
