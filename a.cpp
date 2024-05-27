@@ -1,15 +1,22 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include "prejudge.h"
 
-string s;
+struct *Node {
 
-int main() {
-    cin >> s;
-    for (int i = 0; i < s.size(); i++) {
-        int x = s[i] - 'a';
-        x += 3;
-        if (x > 25) x -= 26;
-        cout << (char) (x + 'a');
-    }
-    cout << '\n'; // 最後記得要換行
+};
+
+void append(Node *&head, int value) {
+    if (head == nullptr) head = new Node();
+    head->value = value;
+}
+
+void insert(Node *&head, int index, int value) {
+
+}
+
+void deleteNode(Node *&head, int value) {
+  // TODO
+}
+
+void print(Node *head) {
+  // TODO
 }
